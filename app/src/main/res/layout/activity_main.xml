@@ -3,11 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#99000000"
     android:id="@+id/root"
     tools:context=".MainActivity">
 
-    <com.gal.motionlayoutmanu.MenuView
+    <com.gal.threedmenu.MenuView2
+        android:id="@+id/menu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:textColor="#1BBCAD"/>
 
 </FrameLayout>

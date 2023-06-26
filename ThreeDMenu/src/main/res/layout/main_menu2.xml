@@ -55,7 +55,7 @@
         android:layout_width="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/flow"
+        android:id="@+id/menu_linear_layout"
         android:visibility="gone"
         android:orientation="vertical"
         app:constraint_referenced_ids="main,insert,show"/>
